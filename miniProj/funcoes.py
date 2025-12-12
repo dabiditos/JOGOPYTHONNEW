@@ -103,7 +103,7 @@ def alterarTabuleiro():
     os.system("cls")
     print("\n  =============================\n")
 
-    print("  Escolhe o comprimento (2-10):")
+    print("  Escolhe o comprimento (3-10):")
     
     newComp = int(input("\n  =============================\n\n  "))
     if newComp > 10:
@@ -113,10 +113,10 @@ def alterarTabuleiro():
         print("\n  Clica ENTER para continuar.")
         input("\n  =======================================================\n\n  ")
     
-    if newComp < 2:
-        newComp = 2
+    if newComp < 3:
+        newComp = 3
         print("\n  =======================================================\n")
-        print("  Número menor que o valor mínimo. Comprimento nova = 2.")
+        print("  Número menor que o valor mínimo. Comprimento nova = 3.")
         print("\n  Clica ENTER para continuar.")
         input("\n  =======================================================\n\n  ")
     
@@ -124,7 +124,7 @@ def alterarTabuleiro():
     
     print("\n  =============================\n")
 
-    print("  Escolhe a largura (2-10):")
+    print("  Escolhe a largura (3-10):")
     
     newLarg = int(input("\n  =============================\n\n  "))
     
@@ -137,10 +137,10 @@ def alterarTabuleiro():
         input("\n  ===================================================\n\n  ")
         
     
-    if newLarg < 2:
-        newLarg = 2
+    if newLarg < 3:
+        newLarg = 3
         print("\n  ==================================================\n")
-        print("  Número menor que o valor mínimo. Largura nova = 2.")
+        print("  Número menor que o valor mínimo. Largura nova = 3.")
         print("\n  Clica ENTER para continuar.")
         input("\n  ==================================================\n\n  ")
     
@@ -158,16 +158,13 @@ def alterarTabuleiro():
         
     os.system("cls")
 
-    print("\n  =============================\n")
+    print("\n  =============================================\n")
     print("  Valores do tabuleiro atualizados com sucesso!\n")
     print("  Clica ENTER para voltar ao menu.")
-    input("\n  =============================\n\n  ")
+    input("\n  =============================================\n\n  ")
     
-    menu()
+    #menu()
     
-    
-    
-        
 # -- TESTES --
 
 print(capa())
