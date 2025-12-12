@@ -1,0 +1,6 @@
+{
+    "tabuleiro": {
+        "comprimento": 5,
+        "largura": 5
+    }
+}
